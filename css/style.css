@@ -282,6 +282,12 @@ main {
         max-width: 250px;
     }
 }
+@media screen and (min-width: 320px) {
+    .catalog__card {
+        width: calc(100% / 4 - 10px);
+        max-width: 250px;
+    }
+}
 
 .catalog__img {
     max-width: 250px;
@@ -449,4 +455,73 @@ main {
 
 .pagination__list--text {
     width: 130px !important;
+}
+.catalog__card:hover{
+    cursor: pointer;
+    border: 3px solid #D02B38;
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+@media(max-width:1300px){
+    body{
+        -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
+        zoom: 0.9; /* Other non-webkit browsers */
+        zoom: 90%; /* Webkit browsers */
+    }
+}
+@media(max-width:1150px){
+    body{
+        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+        zoom: 0.8; /* Other non-webkit browsers */
+        zoom: 80%; /* Webkit browsers */
+    }
+}
+@media(max-width:1150px){
+    body{
+        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+        zoom: 0.8; /* Other non-webkit browsers */
+        zoom: 80%; /* Webkit browsers */
+    }
+}
+@media(max-width:900px){
+    body{
+        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+        zoom: 0.7; /* Other non-webkit browsers */
+        zoom: 70%; /* Webkit browsers */
+    }
+}
+@media(max-width:750px){
+    body{
+        -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
+        zoom: 0.6; /* Other non-webkit browsers */
+        zoom: 60%; /* Webkit browsers */
+    }
+}
+@media(max-width:600px){
+    body{
+        -moz-transform: scale(0.5, 0.5); /* Moz-browsers */
+        zoom: 0.5; /* Other non-webkit browsers */
+        zoom: 50%; /* Webkit browsers */
+    }
+}
+@media(max-width:500px){
+    body{
+        -moz-transform: scale(0.4, 0.4); /* Moz-browsers */
+        zoom: 0.4; /* Other non-webkit browsers */
+        zoom: 40%; /* Webkit browsers */
+    }
+}
+@media(max-width:400px){
+    body{
+        -moz-transform: scale(0.3, 0.3); /* Moz-browsers */
+        zoom: 0.3; /* Other non-webkit browsers */
+        zoom: 30%; /* Webkit browsers */
+    }
+}@media(max-width:350px){
+    body{
+        -moz-transform: scale(0.2, 0.2); /* Moz-browsers */
+        zoom: 0.2; /* Other non-webkit browsers */
+        zoom: 20%; /* Webkit browsers */
+    }
 }
