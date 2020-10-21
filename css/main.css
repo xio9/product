@@ -505,3 +505,98 @@ body{
     height: 30px;
     width: 30px;
 }
+@media (max-width:1890px){
+    .swiper-button-next{
+        right: 230px;
+     }
+     .swiper-button-prev{
+         left: 230px;
+     }
+}
+@media (max-width:1800px){
+    .swiper-button-next{
+        right: 200px;
+     }
+     .swiper-button-prev{
+         left: 200px;
+     }
+}
+@media (max-width:1740px){
+    .swiper-button-next{
+        right: 170px;
+     }
+     .swiper-button-prev{
+         left: 170px;
+     }
+}
+@media (max-width:1670px){
+    .swiper-button-next{
+        right: 130px;
+     }
+     .swiper-button-prev{
+         left: 130px;
+     }
+}
+@media (max-width:1580px){
+    .swiper-button-next{
+        right: 90px;
+     }
+     .swiper-button-prev{
+         left: 90px;
+     }
+}
+@media (max-width:1500px){
+    .swiper-button-next{
+        right: 40px;
+     }
+     .swiper-button-prev{
+         left: 40px;
+     }
+}
+@media (max-width:1400px){
+    .swiper-button-next{
+        right: 20px;
+        top:2830px;
+     }
+     .swiper-button-prev{
+         left: 20px;
+         top:2830px;
+     }
+}
+@media (max-width:1400px){
+    .heading-red{
+        font-size: 12px;
+    }
+    .card{
+        margin: 0 20px 20px 0;
+        flex-basis: 0%;
+    }
+    .card-img{
+        width: 450px;
+    }
+    .clothes-img{
+        width: 225px;
+    }
+    .phone-number{
+        margin-right: 40px;
+    }
+    .img-instagram{
+        margin-right: 60px;
+    }
+    .trans-lat{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-right: 50px;
+    }
+}
+@media (min-width:1400px){
+    .footer-group-col{
+        margin-left: 900px;
+    }
+}
+@media (min-width:1600px){
+    .footer-group-col{
+        margin-left: 1000px;
+    }
+}
